@@ -2,12 +2,14 @@
 
 class Player
 
-		attr_accessor :name,:lives, :turns, :score
+		attr_accessor :name,:life, :turns, :score
+
 		def initialize(name)
+
 			@name = name
-			@lives = 3
+			@life = 3
 			@turns = 0
-			@score = 0 
+			@points = 0 
 		end
 end
 
